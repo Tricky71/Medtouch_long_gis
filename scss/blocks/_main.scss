@@ -1,0 +1,34 @@
+.main-content {
+  position: relative;
+}
+
+.main-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.main-header {
+  margin-bottom: 30px;
+  & img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.main-navigation {
+  margin-bottom: 30px;
+}
+
+.main-block {
+  margin-bottom: 40px;
+}
+
+@media(min-width: $tablet-width) {
+  .main-header {
+    margin-bottom: 50px;
+  }
+
+  .main-block {
+    // margin-bottom: 45px;
+  }
+}

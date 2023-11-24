@@ -1,0 +1,26 @@
+.download-button {
+  padding: 20px 25px;
+  background-color: $accent;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: normal;
+  border-radius: 20px;
+    &:hover {
+      background-color: pink;
+    }
+    &:active,
+    &:focus {
+      outline: none;
+    }
+}
+
+@media(min-width: $tablet-width) {
+  .download-button {
+    padding: 20px 65px;
+    // background-color: $accent;
+    // color: #fff;
+    // font-size: 22px;
+    // font-weight: 500;
+  }
+}

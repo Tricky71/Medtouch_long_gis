@@ -1,0 +1,23 @@
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media(min-width: 700px) {
+  .wrapper {
+    max-width: 684px;
+    padding: 0 48px;
+  }
+}
+
+@media(min-width: $tablet-width) {
+  .wrapper--wide {
+    max-width: 960px;
+    padding: 0 15px;
+  }
+
+  .wrapper--no-padding {
+    padding: 0;
+  }
+}

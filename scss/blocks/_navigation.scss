@@ -1,0 +1,45 @@
+.navigation__title {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 25px;
+  font-size: 13px;
+  font-weight: 400;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 42px;
+      height: 2px;
+      background-color: $accent;
+      left: 0;
+      bottom: -5px;
+    }
+}
+
+.navigation__list {
+  @include reset-list;
+  font-size: 13px;
+  line-height: 120%;
+  color: #726D73;
+}
+
+.navigation__item {
+  margin-bottom: 15px;
+}
+
+.navigation__link {
+  &:hover,
+  &:active {
+    text-decoration: none;
+    color: $text;
+  }
+}
+
+@media(min-width: 1200px) {
+  .navigation {
+    position: absolute;
+    width: 178px;
+    top: 20px;
+    left: 40px;
+  }
+}
