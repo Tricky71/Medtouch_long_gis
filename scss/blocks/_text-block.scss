@@ -34,18 +34,18 @@
       }
       &:first-child {
         &::before {
-          content: url(../../img/svg/point-1.svg);
+          content: url(../img/svg/point-1.svg);
         }
       }
       &:nth-child(even) {
         &::before {
-          content: url(../../img/svg/point-2.svg);
+          content: url(../img/svg/point-2.svg);
         }
       }
       &:last-child {
         margin-bottom: 0;
         &::before {
-          content: url(../../img/svg/point-3.svg);
+          content: url(../img/svg/point-3.svg);
         }
       }
     }
@@ -184,7 +184,7 @@ main .text-block__content {
       margin-bottom: 50px;
       padding-left: 60px;
       &::before {
-        content: url(../../img/svg/i-icon.svg);
+        content: url(../img/svg/i-icon.svg);
         position: absolute;
         display: flex;
         align-items: center;
@@ -199,7 +199,7 @@ main .text-block__content {
       &:last-child {
         margin-bottom: 0;
           &::before {
-            content: url(../../img/svg/v-icon.svg);
+            content: url(../img/svg/v-icon.svg);
           }
       }
     }
@@ -245,7 +245,7 @@ main .text-block__content {
         position: relative;
           &::before {
             position: absolute;
-            content: url(../../img/svg/dot-line2.svg);
+            content: url(../img/svg/dot-line2.svg);
             top: 45px;
             left: -50px;
           }
@@ -287,7 +287,7 @@ main .text-block__content {
       padding: 75px 0;
       margin-bottom: 50px;
       background-color: #fff;
-      background-image: url('../../img/blue-bg.png');
+      background-image: url('../img/blue-bg.png');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
@@ -310,7 +310,7 @@ main .text-block__content {
       padding: 165px 0;
       margin-bottom: 45px;
       background-color: #fff;
-      background-image: url('../../img/blue-bg-2.png');
+      background-image: url('../img/blue-bg-2.png');
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
