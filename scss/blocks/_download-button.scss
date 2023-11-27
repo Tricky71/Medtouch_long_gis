@@ -1,4 +1,4 @@
-body .download-button {
+body .wrapper .text-block__content .download-button {
   padding: 20px 25px;
   background-color: $accent;
   color: #fff;
@@ -10,20 +10,15 @@ body .download-button {
       background: linear-gradient(180deg, #F258B7 0%, #D51C8C 100%);
       color: #fff;
     }
-    &:active,
-    &:focus {
-     
-      outline: none;
-      // color: #fff;
+    
+    &:active {
+      background: none;
+      background-color: #B80070;
     }
 }
 
 @media(min-width: $tablet-width) {
-  .download-button {
+  body .wrapper .text-block__content .download-button {
     padding: 20px 65px;
-    // background-color: $accent;
-    // color: #fff;
-    // font-size: 22px;
-    // font-weight: 500;
   }
 }
