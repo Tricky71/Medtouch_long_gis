@@ -310,7 +310,9 @@ main .text-block__content {
       }
     }
     &--6 {
-      padding: 50vh 0;
+      // padding: 50vh 0;
+      padding-top: calc(100vw / 6.6);
+      padding-bottom: calc(100vw / 6.6);
       margin-bottom: 45px;
       background-color: #fff;
       background-image: url('../img/blue-bg-2.png');
