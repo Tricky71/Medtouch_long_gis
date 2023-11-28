@@ -287,13 +287,13 @@ main .text-block__content {
       }
     }
     &--4 {
-      padding: 75px 0;
+      padding: 10vh 0;
       margin-bottom: 50px;
       background-color: #fff;
       background-image: url('../img/blue-bg.png');
       background-repeat: no-repeat;
       background-position: center;
-      background-size: cover;
+      background-size: 100% 100%;
     }
     &--5 {
       margin-bottom: 60px;
@@ -310,13 +310,13 @@ main .text-block__content {
       }
     }
     &--6 {
-      padding: 165px 0;
+      padding: 50vh 0;
       margin-bottom: 45px;
       background-color: #fff;
       background-image: url('../img/blue-bg-2.png');
       background-repeat: no-repeat;
       background-position: center;
-      background-size: cover;
+      background-size: 100% 100%;
         & .text-block__title {
           margin-top: 10px;
           margin-bottom: 25px;
