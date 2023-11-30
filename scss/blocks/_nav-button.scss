@@ -1,0 +1,45 @@
+    
+.longread__nav-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  display: flex;
+  justify-content: start;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 99;
+}  
+
+.longread__nav-button>a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  opacity: 0.8;
+  background: linear-gradient(180deg, #EF53B3 0%, #D72090 100%);
+  box-shadow: 6px 6px 20px rgba(45, 0, 56, 0.2);
+  transition: all 0.3s ease;
+  padding: 0;
+  cursor: pointer;
+}
+
+.longread__button-icon {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+    & svg {
+      fill: #fff;
+    }
+}
+
+@media(min-width: $tablet-width) {
+  .longread__nav-button>a {
+    width: 60px;
+    height: 60px;
+  }
+}
+    
